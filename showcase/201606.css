@@ -6,26 +6,23 @@ body {
     font-family: "Microsoft YaHei", sans-serif;
     background-color: #f1f1f1;
     margin: 0;
+    padding: 0 20px 0 20px;
 }
 
 .title {
     height: 80px;
-    padding: 20px;
+    padding: 20px 0 20px 0;
 }
 
 .logo {
     width: 120px;
 }
 
-.introduce {
-    padding: 0 20px 0 20px;
-}
-
-.introduce .introduce-title {
+.content-title {
     color: #ce381d;
 }
 
-.introduce .introduce-content {
+.content {
     text-indent:2em;
     font-size: 15px;
 }
@@ -34,8 +31,6 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    width:100%;
-    overflow:hidden;
 }
 
 .certificate-copyright li {
@@ -54,8 +49,17 @@ body {
     width: 100%;
 }
 
-.contact {
-    padding: 0 20px 0 20px;
+.cases ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cases ul li {
+    float: left;
+    width: 50%;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
 }
 
 .contact p .contact-company {
@@ -68,13 +72,16 @@ body {
     line-height: 2em;
 }
 
-
 @media (max-width: 767px) {
     .certificate-copyright li {
         width: 50% !important;
     }
 
     .certificate-register li {
+        width: 100% !important;
+    }
+
+    .cases ul li {
         width: 100% !important;
     }
 }
