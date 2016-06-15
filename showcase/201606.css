@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+}
+
+.title {
+    height: 80px;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.introduce {
+    padding: 0 20px 0 20px;
+}
+
+.introduce .introduce-title {
+    color: #ce381d;
+}
+
+.introduce .introduce-content {
+    text-indent:2em;
+    font-size: 15px;
+}
+
+.certificate ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    overflow:hidden;
+}
+
+.certificate-copyright li {
+    float: left;
+    width: 25%;
+    padding: 10px 15px 10px 15px;
+}
+
+.certificate-register li {
+    float: left;
+    width: 33%;
+    padding: 10px 15px 10px 15px;
+}
+
+.certificate li img {
+    width: 100%;
+}
+
+.contact {
+    padding: 0 20px 0 20px;
+}
+
+.contact p .contact-company {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact p {
+    font-size: 12px;
+    line-height: 2em;
+}
+
+
+@media (max-width: 767px) {
+    .certificate-copyright li {
+        width: 50% !important;
+    }
+
+    .certificate-register li {
+        width: 100% !important;
+    }
+}
