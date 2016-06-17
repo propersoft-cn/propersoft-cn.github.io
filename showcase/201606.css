@@ -25,6 +25,7 @@ body {
 .content {
     text-indent:2em;
     font-size: 15px;
+    line-height:150%;
 }
 
 .certificate ul {
@@ -92,6 +93,7 @@ body {
 .contact p {
     font-size: 12px;
     line-height: 2em;
+    line-height:150%;
 }
 
 .module-title {
