@@ -85,6 +85,15 @@ body {
     text-align: center;
 }
 
+.contact {
+    text-align: center;
+}
+
+.contact > div {
+    display: inline-block;
+    text-align: left;
+}
+
 .contact p .contact-company {
     font-weight: bold;
     font-size: 16px;
@@ -128,6 +137,16 @@ body {
     display: none;
 }
 
+.qcode {
+    text-align: center;
+    border-top: 1px solid #cccccc;
+    padding: 15px;
+}
+
+.qcode img {
+    width: 300px;
+}
+
 .green-background {
     background-color: #50a337;
 }
@@ -169,5 +188,9 @@ body {
 
     #nurse-small {
         display: block !important;
+    }
+
+    .qcode img {
+        width: 60% !important;
     }
 }
