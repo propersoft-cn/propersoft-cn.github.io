@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+
+.title {
+    height: 80px;
+    padding: 20px 0 20px 0;
+}
+
+.logo {
+    width: 120px;
+}
+
+.content-title {
+    color: #ce381d;
+}
+
+.content {
+    text-indent:2em;
+    font-size: 15px;
+    line-height:150%;
+}
+
+.certificate ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.certificate-copyright li {
+    float: left;
+    width: 25%;
+    padding: 10px 15px 10px 15px;
+}
+
+.certificate-register li {
+    float: left;
+    width: 33%;
+    padding: 10px 15px 10px 15px;
+}
+
+.certificate li img {
+    width: 100%;
+}
+
+.catalog ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.catalog ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.catalog ul li.last-catalog-content {
+    width: 100%;
+}
+
+.catalog ul li > div {
+    margin: 5px;
+    padding: 0 12px 0 12px;
+    color: #ffffff;
+}
+
+.cases ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cases ul li {
+    float: left;
+    width: 50%;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact > div {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact p .contact-company {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact p {
+    font-size: 12px;
+    line-height: 2em;
+    line-height:150%;
+}
+
+.module-title {
+    height: 48px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.module-title img {
+    vertical-align: middle;
+    width: 32px;
+    margin: -4px 0 0 0;
+}
+
+.module-title span {
+    line-height: 48px;
+    font-size: 18px;
+}
+
+.module-content table {
+    width: 95%;
+    margin: auto;
+    height: 100%;
+}
+
+.module-content table tr td {
+    padding: 0 0 0 5px;
+    text-align: left;
+}
+
+#nurse-small {
+    display: none;
+}
+
+.qcode {
+    text-align: center;
+    border-top: 1px solid #cccccc;
+    padding: 15px;
+}
+
+.qcode img {
+    width: 300px;
+}
+
+.green-background {
+    background-color: #50a337;
+}
+
+.blue-background {
+    background-color: #3c92be;
+}
+
+.red-background {
+    background-color: #c03530;
+}
+
+@media (max-width: 1270px) {
+    .catalog ul li:not(.last-catalog-content) {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 980px) {
+    .certificate-copyright li {
+        width: 50% !important;
+    }
+
+    .certificate-register li {
+        width: 100% !important;
+    }
+
+    .catalog ul li:not(.last-catalog-content) {
+        width: 100% !important;
+    }
+
+    .cases ul li {
+        width: 100% !important;
+    }
+
+    #nurse-big {
+        display: none !important;
+    }
+
+    #nurse-small {
+        display: block !important;
+    }
+
+    .qcode img {
+        width: 60% !important;
+    }
+}
