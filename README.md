@@ -1,6 +1,8 @@
 Propersoft
 ==========
 
+* [Web site](http://www.propersoft.cn/)
+
 Showcases
 ---------
 
@@ -9,5 +11,5 @@ Showcases
 
 --------
 
-[招聘需求](./Recruit-requirement)
-[CI/CD](./cicd)
+* [招聘需求](./Recruit-requirement)
+* [CI/CD](./cicd)
