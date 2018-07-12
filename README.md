@@ -2,7 +2,7 @@ Propersoft
 ==========
 
 * [Web site](http://www.propersoft.cn/)
-* [Yellow Page](./Yellow-Page)
+* [Yellow Page](./Yellow-Page.md)
 
 Showcases
 ---------
@@ -13,4 +13,5 @@ Showcases
 Recruit
 -------
 
-* [招聘需求](./recruit/README)
+* [招聘需求](./recruit)
+* [Tech Quiz](./recruit/tech-quiz)
