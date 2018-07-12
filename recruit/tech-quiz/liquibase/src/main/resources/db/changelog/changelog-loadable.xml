@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="generator (generated)" id="1525327863683-40">
+        <createTable tableName="QUIZ_LOADABLE">
+            <column name="ID" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CREATE_TIME" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CREATE_USER_ID" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LAST_MODIFY_TIME" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LAST_MODIFY_USER_ID" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TEST" type="INT(10)"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
