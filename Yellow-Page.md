@@ -21,6 +21,7 @@
 |pep-push|正式环境推送。|[http://39.106.53.71:29091/pep-push/](http://39.106.53.71)|手动|
 
 ## ICMP-产品
+
 |**CI名称**|**说明**|**CD地址**|**更新类型**|
 |:--|:--|:--|:--|
 |app |掌上办公阿里云验证环境|[https://cloud.propersoft.cn/icmp/app/](https://cloud.propersoft.cn/icmp/app/)|自动|
@@ -39,6 +40,7 @@
 |ICMP-server-dev本地测试|掌上办公产品后台本地测试环境。|[http://192.168.1.111/icmp/server-dev](http://192.168.1.111/icmp/server-dev)|自动|
 
 ## ICMP-普日
+
 |**CI名称**|**说明**|**CD地址**|**更新类型**|
 |:--|:--|:--|:--|
 |app-im-174外网dev环境 |普日协同办公项目APP测试环境。|[https://icmp2.propersoft.cn/icmp/](https://icmp2.propersoft.cn/icmp/)|自动|
@@ -55,6 +57,7 @@
 |server-阿里云demo环境 |普日协同办公项目后台演示环境。|[https://icmp.propersoft.cn/demo/api/](https://icmp.propersoft.cn/demo/api/)|手动|
 
 ## ICMP-YKRM
+
 |**CI名称**|**说明**|**CD地址**|**更新类型**|
 |:--|:--|:--|:--|
 |YKRM-app正式环境|营口人民项目办公APP打包正式环境。|[https://ykrm.fdjkyl.org/icmp/app/](https://ykrm.fdjkyl.org/icmp/app/)|手动|
@@ -66,6 +69,7 @@
 |ykrm-server-dev正式环境|营口人民项目办公后台正式环境。||手动|
 
 ## IHOS-产品
+
 |**CI名称**|**说明**|**CD地址**|**更新类型**|
 |:--|:--|:--|:--|
 |app-cloud演示 |掌上就医阿里云演示环境|[https://cloud.propersoft.cn/ihos/app/](https://cloud.propersoft.cn/ihos/app/)|手动|
@@ -81,6 +85,7 @@
 |server-dev |掌上就医后台server-dev分支本地测试|[http://192.168.1.101/ihos/server-dev/](http://192.168.1.101/ihos/server-dev/)|自动|
 
 ## IHOS-YKRM
+
 |**CI名称**|**说明**|**CD地址**|**更新类型**|
 |:--|:--|:--|:--|
 |check-app |营口人民项目app端代码自动检查||自动|
