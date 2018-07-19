@@ -4,6 +4,15 @@
 |ICMP|掌上办公。|20180706|
 |IHOS|掌上就医。|20180706|
 
+## Zabbix
+
+* [zabbix](https://cloud.propersoft.cn/zabbix)
+
+## 推送服务
+
+* [正式环境](http://39.106.53.71:29091/pep-push/)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush)，手动部署
+* [测试环境](http://202.199.100.174:29091/pep-push/)
+
 ## PEP
 
 |**CI名称**|**说明**|**CD地址**|**更新类型**|
@@ -18,7 +27,6 @@
 |PEP--parallel|PEP后端代码检查。||自动|
 |PEP-CD-本地环境-develop |PEP后台开发版本地测试。|[http://192.168.1.111/pep/develop/](http://192.168.1.111/pep/develop/)|自动|
 |PEP-CD-本地环境-master|PEP后台发布版本地测试。|[http://192.168.1.111/pep/master/](http://192.168.1.111/pep/master/)|自动|
-|pep-push|正式环境推送。|[http://39.106.53.71:29091/pep-push/](http://39.106.53.71)|手动|
 
 ## ICMP-产品
 
