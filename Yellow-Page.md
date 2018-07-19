@@ -51,10 +51,10 @@
 |desktop-174灰度环境|普日协同办公项目PC端测试环境。|[https://icmp2.propersoft.cn/icmp/web/](https://icmp2.propersoft.cn/icmp/web/)|自动|
 |desktop-pr正式环境 |普日协同办公项目管理端正式环境。|[https://icmp.propersoft.cn/propersoft/web/](https://icmp.propersoft.cn/propersoft/web/)|手动|
 |||[http://192.168.1.111/propersoft/web/](http://192.168.1.111/propersoft/web/)||
-|server-174外网dev环境 |普日协同办公项目后台测试环境。|[https://icmp2.propersoft.cn/icmp/api/](https://icmp2.propersoft.cn/icmp/api/)|自动|
-|server-dev-174灰度环境|普日协同办公项目后台灰度测试环境。|[https://icmp2.propersoft.cn/icmp/server-dev/](https://icmp2.propersoft.cn/icmp/server-dev/)|自动|
-|server-pr正式环境 |普日协同办公项目后台正式环境。|[https://icmp.propersoft.cn/propersoft/api/](https://icmp.propersoft.cn/propersoft/api/)|手动|
-|server-阿里云demo环境 |普日协同办公项目后台演示环境。|[https://icmp.propersoft.cn/demo/api/](https://icmp.propersoft.cn/demo/api/)|手动|
+
+* [正式线上后台环境](https://icmp.propersoft.cn/propersoft/api/)：[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr)，手动部署
+* [灰度测试后台环境](https://icmp2.propersoft.cn/icmp/server-dev/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Server174dev)
+* [阿里云演示环境](https://icmp.propersoft.cn/demo/api/)：[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_aly_demo_Server)，手动部署
 
 ## ICMP-YKRM
 
