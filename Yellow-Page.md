@@ -51,7 +51,7 @@
 
 ### 正式环境
 
-* desktop：[外网](https://icmp.propersoft.cn/propersoft/web/) | [内网](http://192.168.1.111/propersoft/web/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPr)，手动部署
+* desktop：[外网](https://icmp.propersoft.cn/propersoft/web/) / [内网](http://192.168.1.111/propersoft/web/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPr)，手动部署
 * [后台](https://icmp.propersoft.cn/propersoft/api/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr)，手动部署
 
 ### 灰度环境
