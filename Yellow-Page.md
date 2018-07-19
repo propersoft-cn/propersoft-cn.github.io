@@ -48,13 +48,20 @@
 |app-im-pr正式apk |普日协同办公项目APP打包正式环境。|[https://icmp.propersoft.cn/propersoft](https://icmp.propersoft.cn/propersoft)|手动|
 |app-im-阿里云demo环境|掌上办公客户演示环境。|[https://icmp.propersoft.cn/demo/app/](https://icmp.propersoft.cn/demo/app/)|手动|
 |cordova-easemob|自动更新环信插件到私服。|||
-|desktop-174灰度环境|普日协同办公项目PC端测试环境。|[https://icmp2.propersoft.cn/icmp/web/](https://icmp2.propersoft.cn/icmp/web/)|自动|
-|desktop-pr正式环境 |普日协同办公项目管理端正式环境。|[https://icmp.propersoft.cn/propersoft/web/](https://icmp.propersoft.cn/propersoft/web/)|手动|
-|||[http://192.168.1.111/propersoft/web/](http://192.168.1.111/propersoft/web/)||
 
-* [正式线上后台环境](https://icmp.propersoft.cn/propersoft/api/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr)，手动部署
-* [灰度测试后台环境](https://icmp2.propersoft.cn/icmp/server-dev/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Server174dev)
-* [阿里云演示环境](https://icmp.propersoft.cn/demo/api/)：[server](https://gitlab.com/propersoft/icmp/propersoft/tree/server)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_aly_demo_Server)，手动部署
+### 正式环境
+
+* desktop：[外网](https://icmp.propersoft.cn/propersoft/web/) | [内网](http://192.168.1.111/propersoft/web/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPr)，手动部署
+* [后台](https://icmp.propersoft.cn/propersoft/api/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr)，手动部署
+
+### 灰度环境
+
+* [desktop](https://icmp2.propersoft.cn/icmp/web/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Desktop)
+* [后台](https://icmp2.propersoft.cn/icmp/server-dev/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Server174dev)
+
+### 阿里云演示环境
+
+* [后台](https://icmp.propersoft.cn/demo/api/)：[server](https://gitlab.com/propersoft/icmp/propersoft/tree/server)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_aly_demo_Server)，手动部署
 
 ## ICMP-YKRM
 
