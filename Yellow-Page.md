@@ -1,6 +1,6 @@
 |内容|说明|版本|
 |:--|:--|:--|
-|PEP|平台。|20180706|
+|PEP|平台。|20180725|
 |ICMP|掌上办公。|20180706|
 |IHOS|掌上就医。|20180706|
 
@@ -10,7 +10,17 @@
 
 ## 推送服务
 
-* [正式环境](http://39.106.53.71:29091/pep-push/)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush)，手动部署
+### 正式环境
+
+* [后台](http://39.106.53.71:29091/pep-push/)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush)，手动部署
+
+### 预览版
+
+* [desktop](http://push.propersoft.cn/admin)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepDesktop)，手动部署
+* [后台](http://push.propersoft.cn/pep-push)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush_new)，手动部署
+
+### 测试环境
+
 * [测试环境](http://202.199.100.174:29091/pep-push/)
 
 ## PEP
