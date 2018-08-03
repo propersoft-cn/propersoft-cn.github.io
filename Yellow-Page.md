@@ -67,12 +67,15 @@
 |app-im-阿里云demo环境|掌上办公客户演示环境。|[https://icmp.propersoft.cn/demo/app/](https://icmp.propersoft.cn/demo/app/)|手动|
 |cordova-easemob|自动更新环信插件到私服。|||
 
-### 正式环境
+### 正式版
 
 * desktop：[外网](https://icmp.propersoft.cn/propersoft/web/) / [内网](http://192.168.1.111/propersoft/web/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPr)，手动部署
 * [后台](https://icmp.propersoft.cn/propersoft/api/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr)，手动部署
 
-### 灰度环境
+### 抢先版
+
+![Android](./Yellow-Page/preview-android.png)
+![iOS](./Yellow-Page/preview-ios.png)
 
 * [desktop](https://icmp2.propersoft.cn/icmp/web/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Desktop)
 * [后台](https://icmp2.propersoft.cn/icmp/server-dev/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Server174dev)
