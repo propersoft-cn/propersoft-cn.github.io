@@ -17,7 +17,7 @@
 ### 预览版
 
 * [desktop](http://push.propersoft.cn/admin)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepDesktop)，手动部署
-* [后台](http://push.propersoft.cn/pep-push)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush_new)，手动部署
+* [后台](http://push.propersoft.cn/pep-push)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush_new)
 
 ### 测试环境
 
