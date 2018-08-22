@@ -4,9 +4,13 @@
 |ICMP|掌上办公。|20180706|
 |IHOS|掌上就医。|20180706|
 
+---
+
 ## Zabbix
 
 * [zabbix](https://cloud.propersoft.cn/zabbix)
+
+---
 
 ## 推送服务
 
@@ -14,29 +18,44 @@
 
 * [后台](http://39.106.53.71:29091/pep-push/)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush)，手动部署
 
-### 预览版
-
-* [desktop](http://push.propersoft.cn/admin)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepDesktop)，手动部署
-* [后台](http://push.propersoft.cn/pep-push)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush_new)
-
 ### 测试环境
 
 * [测试环境](http://202.199.100.174:29091/pep-push/)
 
+## 消息中心
+
+* [desktop](http://push.propersoft.cn/admin)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepDesktop)，手动部署
+* [后台](http://push.propersoft.cn/pep-push)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush_new)
+
+---
+
 ## PEP
 
-|**CI名称**|**说明**|**CD地址**|**更新类型**|
-|:--|:--|:--|:--|
-|PEA-API文档|PEP接口文档。|[http://192.168.1.111/pea/api/api.html](http://192.168.1.111/pea/api/api.html)|自动|
-|||[http://192.168.1.111/pea/api-dev/api.html](http://192.168.1.111/pea/api-dev/api.html)||
-|||[http://192.168.1.111/pea/merge/api.html](http://192.168.1.111/pea/merge/api.html)||
-|PEA-CD-本地测试|PEP前端本地测试。|开发版：http://192.168.1.111/pea/develop/|自动|
-|||发布版：http://192.168.1.111/pea/master/||
-|PEA-CD-阿里云-develop|PEP前端开发板外网测试。|[https://cloud.propersoft.cn/pea/develop/](https://cloud.propersoft.cn/pea/develop/)|自动|
-|PEA-CD-阿里云-master|PEP前端发布版外网测试。|[https://cloud.propersoft.cn/pea/master/](https://cloud.propersoft.cn/pea/master/)|自动|
-|PEP--parallel|PEP后端代码检查。||自动|
-|PEP-CD-本地环境-develop |PEP后台开发版本地测试。|[http://192.168.1.111/pep/develop/](http://192.168.1.111/pep/develop/)|自动|
-|PEP-CD-本地环境-master|PEP后台发布版本地测试。|[http://192.168.1.111/pep/master/](http://192.168.1.111/pep/master/)|自动|
+### API
+
+* 内网
+    * [api](http://192.168.1.111/pea/api/api.html)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaApi)
+    * [api-dev](http://192.168.1.111/pea/api-dev/api.html)
+    * [merge](http://192.168.1.111/pea/merge/api.html)
+
+### 前端
+
+* 外网
+    * [master](https://cloud.propersoft.cn/pea/master/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaCdMaster)
+    * [develop](https://cloud.propersoft.cn/pea/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaCdDevelop)
+
+* 内网
+    * [master](http://192.168.1.111/pea/master/)
+    * [develop](http://192.168.1.111/pea/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaCd_localhost)
+
+### 后端
+
+* [持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepParallel)
+* 内网
+    * [master](http://192.168.1.111/pep/master/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepMasterCd)
+    * [develop](http://192.168.1.111/pep/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepCdDevelop)
+
+---
 
 ## ICMP-产品
 
@@ -95,6 +114,8 @@
 |ykrm-server本地测试环境|营口人民项目办公后台本地环境。|[http://192.168.1.111/ykrm/server](http://192.168.1.111/ykrm/server)|自动|
 |ykrm-server阿里云演示环境|营口人民项目办公后台阿里云演示环境。|[https://ykrm.propersoft.cn/icmp/server](https://ykrm.propersoft.cn/icmp/server)|自动|
 |ykrm-server-dev正式环境|营口人民项目办公后台正式环境。||手动|
+
+---
 
 ## IHOS-产品
 
