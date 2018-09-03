@@ -83,7 +83,7 @@
 |ICMP-desktop-本地测试 |掌上办公产品前端本地测试环境。|[http://192.168.1.111/icmp/desktop/](http://192.168.1.111/icmp/desktop/)|自动|
 |ICMP-server-dev本地测试|掌上办公产品后台本地测试环境。|[http://192.168.1.111/icmp/server-dev](http://192.168.1.111/icmp/server-dev)|自动|
 
-## ICMP-普日
+## ICMP-普日协同办公
 
 |**CI名称**|**说明**|**CD地址**|**更新类型**|
 |:--|:--|:--|:--|
@@ -103,6 +103,7 @@
 ![Android](./Yellow-Page/preview-android.png)
 ![iOS](./Yellow-Page/preview-ios.png)
 
+* [热部署](https://icmp2.propersoft.cn/icmp-dev/chcp.json)
 * [desktop](https://icmp2.propersoft.cn/icmp/web/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Desktop)
 * [后台](https://icmp2.propersoft.cn/icmp/server-dev/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Server174dev)
 
