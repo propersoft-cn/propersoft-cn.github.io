@@ -6,13 +6,13 @@ Liquibase
 
 Liquibase 是一个数据库的版本管理工具，它当前并不支持从 jar 包中读取 changelog 并执行。
 
-> 可在 [liquibase](./liquibase) 路径下执行 `./gradlew bootRun`，执行结束后，查看 h2 数据库中内容，可以看到如下图所示的表
+> 可在 [liquibase](https://github.com/propersoft-cn/propersoft-cn.github.io/tree/master/recruit/tech-quiz/liquibase) 路径下执行 `./gradlew bootRun`，执行结束后，查看 h2 数据库中内容，可以看到如下图所示的表
 
 ![before](./liquibase/before.png)
 
 而我们的项目通常都采用按模块分割成不同 jar 包的方式对外提供服务，也希望每个模块的数据库初始化语句内聚在各自的模块中。
 
-> 例如 [changelog-in-jar.jar](./liquibase/libs/changelog-in-jar.jar)
+> 例如 [changelog-in-jar.jar](./liquibase/libs/changelog-in-jar.jar) (https://github.com/propersoft-cn/propersoft-cn.github.io/blob/master/recruit/tech-quiz/liquibase/libs/changelog-in-jar.jar)
 
 如何不破坏我们对 jar 包的划分方式以及各模块的内聚性，又能够让依赖这些模块的服务能够正常完成数据的初始化工作，以达到如下图所示预期效果？
 
@@ -26,11 +26,11 @@ Hibernate
 
 在 Spring4 + Hibernate4 的框架下，hibernate 二级缓存的单元测试能够执行通过。
 
-> 可见 [HibernateQueryCacheTests](./hibernate/src/test/groovy/com/proper/quiz/hibernate/HibernateQueryCacheTests.groovy) 中的 `checkQueryCache`
+> 可见 [HibernateQueryCacheTests](https://github.com/propersoft-cn/propersoft-cn.github.io/blob/master/recruit/tech-quiz/hibernate/src/test/groovy/com/proper/quiz/hibernate/HibernateQueryCacheTests.groovy) 中的 `checkQueryCache`
 
 但在升级至 Spring5 + Hibernate5 后，单元测试无法通过，请尝试找出原因，并给出解决方案。
 
-> 升级时，可修改 [build.gradle](./hibernate/build.gradle) 中的如下内容
+> 升级时，可修改 [build.gradle](https://github.com/propersoft-cn/propersoft-cn.github.io/blob/master/recruit/tech-quiz/hibernate/build.gradle) 中的如下内容
 
 ```
 --- a/hibernate/build.gradle
