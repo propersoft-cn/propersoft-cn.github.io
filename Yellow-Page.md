@@ -62,6 +62,11 @@
     * [master](http://192.168.1.111/pep/master/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepMasterCd)
     * [develop](http://192.168.1.111/pep/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepCdDevelop)
 
+###  阿里云公网测试	
+
+* [develop](http://test.propersoft.cn/pep/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepCdDevelop_2)
+* [后台](http://test.propersoft.cn/pea/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaCd)	
+
 ---
 
 ## ICMP-产品
@@ -110,6 +115,13 @@
 ### 阿里云演示环境
 
 * [后台](https://icmp.propersoft.cn/demo/api/)：[server](https://gitlab.com/propersoft/icmp/propersoft/tree/server)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_aly_demo_Server)，手动部署
+
+### 阿里云公网测试环境
+
+* [desktop](https://test.propersoft.cn/propersoft/web/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPr_2)
+* [后台](https://test.propersoft.cn/propersoft/api/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr_2)
+* [app打包持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_AppImPrApk)
+* [app下载地址](http://test.propersoft.cn/app/download/android-armv7-release.apk)
 
 ## ICMP-YKRM
 
