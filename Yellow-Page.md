@@ -31,7 +31,7 @@
 
 ### 测试环境
 
-* [desktop](http://push2.propersoft.cn/admin)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPushTestDesktop)，手动部署
+* [desktop](http://push2.propersoft.cn/admin)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPushTestDesktop)
 * [后台](http://push2.propersoft.cn/pep-push)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPushTest)
 
 ---
@@ -118,9 +118,9 @@
 
 ### 阿里云公网测试环境
 
-* [desktop](https://test.propersoft.cn/propersoft/web/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPr_2)
-* [后台](https://test.propersoft.cn/propersoft/api/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr_2)
-* [app打包持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_AppImPrApk)
+* [desktop](https://test.propersoft.cn/propersoft/web/)：[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPr_2)
+* [后台](https://test.propersoft.cn/propersoft/api/)：[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr_2)
+* [app打包持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_AppImPrApk)
 * [app下载地址](http://test.propersoft.cn/app/download/android-armv7-release.apk)
 
 ## ICMP-YKRM
