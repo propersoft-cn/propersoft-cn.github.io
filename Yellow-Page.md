@@ -44,6 +44,8 @@
     * [api](http://192.168.1.111/pea/api/api.html)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaApi)
     * [api-dev](http://192.168.1.111/pea/api-dev/api.html)
     * [merge](http://192.168.1.111/pea/merge/api.html)
+    * [swagger](http://192.168.1.111/pep-swagger-app/swagger-ui.html)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepSwagger)
+	
 
 ### 前端
 
@@ -87,6 +89,10 @@
 |||[http://192.168.1.111/icmp/merge/api.html](http://192.168.1.111/icmp/merge/api.html)||
 |ICMP-desktop-本地测试 |掌上办公产品前端本地测试环境。|[http://192.168.1.111/icmp/desktop/](http://192.168.1.111/icmp/desktop/)|自动|
 |ICMP-server-dev本地测试|掌上办公产品后台本地测试环境。|[http://192.168.1.111/icmp/server-dev](http://192.168.1.111/icmp/server-dev)|自动|
+
+### ICMP-webim
+
+* [web-im](https://icmp2.propersoft.cn/icmp/web-im/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_IcmpWebim)
 
 ## ICMP-普日协同办公
 
