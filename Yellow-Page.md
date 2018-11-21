@@ -69,6 +69,16 @@
 * [develop](http://test.propersoft.cn/pep/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepCdDevelop_2)
 * [后台](http://test.propersoft.cn/pea/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaCd)	
 
+##  Streamline
+
+### 正式环境
+
+* [后台](https://icmp.propersoft.cn/propersoft/api_streamline)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_Pep_Streamline)
+
+### 测试环境
+
+* [后台](http://220918zh27.iok.la:54885/pep/streamline)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepCdStreamline)
+
 ---
 
 ## ICMP-产品
