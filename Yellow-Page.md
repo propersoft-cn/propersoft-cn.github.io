@@ -11,18 +11,19 @@
 * [zabbix](https://cloud.propersoft.cn/zabbix)
 
 ---
-
-## 推送服务
+## 消息中心
 
 ### 正式环境
 
-* [后台](http://39.106.53.71:29091/pep-push/)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush)，手动部署
+* [desktop](http://notice.propersoft.cn/admin_notice)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPushDesktop_2)，手动部署
+* [后台](http://notice.propersoft.cn/pep-notice)：[持续发布](https://cloud.propersoft.cn/teamcities/admin/editBuild.html?id=buildType:ProperEnterprise_PepPush_3) 手动部署
 
 ### 测试环境
 
-* [测试环境](http://202.199.100.174:29091/pep-push/)
+* [desktop](http://test.propersoft.cn/admin)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPushDesktop)
+* [后台](http://test.propersoft.cn/pep-push)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush_2)
 
-## 消息中心
+## 新推送
 
 ### 正式环境
 
@@ -33,6 +34,16 @@
 
 * [desktop](http://push2.propersoft.cn/admin)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPushTestDesktop)
 * [后台](http://push2.propersoft.cn/pep-push)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPushTest)
+
+## 老推送
+
+### 正式环境
+
+* [后台](http://39.106.53.71:29091/pep-push/)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush)，手动部署
+
+### 测试环境
+
+* [测试环境](http://202.199.100.174:29091/pep-push/)
 
 ---
 
