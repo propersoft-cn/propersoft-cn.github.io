@@ -40,6 +40,7 @@
 ### 正式环境
 
 * [后台](http://39.106.53.71:29091/pep-push/)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush)，手动部署
+* [查看日志](http://39.106.53.71/log/)
 
 ### 测试环境
 
