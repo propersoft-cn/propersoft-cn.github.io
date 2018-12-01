@@ -1,7 +1,7 @@
 |内容|说明|版本|
 |:--|:--|:--|
-|PEP|平台。|20180725|
-|ICMP|掌上办公。|20180706|
+|PEP|平台。|20181129|
+|ICMP|掌上办公。|20181129|
 |IHOS|掌上就医。|20180706|
 
 ---
@@ -115,6 +115,15 @@
 
 * [申请审批数据格式说明](https://seafile.propersoft.cn/#group/1/lib/14688a64-c2cc-4a98-95a7-25de321aebb3/%E6%8E%8C%E4%B8%8A%E5%8A%9E%E5%85%AC/%E7%94%B3%E8%AF%B7%E5%AE%A1%E6%89%B9%E8%A7%84%E8%8C%83%E8%AF%B4%E6%98%8E)
 
+### 厦门心血管app项目打包release
+
+* app：[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_App_3)
+
+### ICMP-standard
+
+* desktop：[正式](https://icmp.propersoft.cn/icmp/standard/) / [抢先版](https://icmp2.propersoft.cn/icmp/standard/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_DesktopPrStandard)，抢先环境自动部署
+* 后台：[正式](https://icmp.propersoft.cn/icmp/server-standard/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_ServerStandard) / [测试](https://icmp2.propersoft.cn/icmp/server-standard/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_ServerqxbStandard)，抢先环境手动部署
+
 ### ICMP-webim
 
 * [web-im](https://icmp2.propersoft.cn/icmp/web-im/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_IcmpWebim)
@@ -131,16 +140,16 @@
 
 ### 正式版
 
-* desktop：[外网](https://icmp.propersoft.cn/propersoft/web/) / [内网](http://192.168.1.111/propersoft/web/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPr)，手动部署
-* [后台](https://icmp.propersoft.cn/propersoft/api/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr)，手动部署
+* desktop：[外网](https://icmp.propersoft.cn/icmp/propersoft/) / [内网](http://192.168.1.111/propersoft/web/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPrPropersoft)，手动部署
+* [后台](https://icmp.propersoft.cn/propersoft/api/)：[server](https://gitlab.com/propersoft/icmp/propersoft/tree/server)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr)，手动部署
 
 ### 抢先版
 
 ![Android](./Yellow-Page/preview-android.png)
 ![iOS](./Yellow-Page/preview-ios.png)
 
-* [热部署](https://icmp2.propersoft.cn/icmp-dev/chcp.json)
-* [desktop](https://icmp2.propersoft.cn/icmp/web/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Desktop)
+* [热部署](https://icmp2.propersoft.cn/icmp-dev/)
+* [desktop](https://icmp.propersoft.cn/icmp/propersoft/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Desktop)
 * [后台](https://icmp2.propersoft.cn/icmp/server-dev/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Server174dev)
 
 ### 阿里云演示环境
