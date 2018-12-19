@@ -3,7 +3,7 @@
 ---
 
 @snap[north-east raleway-medium span-55]
-#### 自由调整流程
+### 自由调整流程
 @snapend
 
 @snap[west span-40 pro-feature-details]
@@ -34,7 +34,16 @@
 
 ---
 
-## 数据可视化报表
+@snap[north raleway-medium span-80]
+### 数据可视化报表
+@snapend
+
+@snap[west span-80]
+@ul[spaced text-white]
+- 可按需创建各类报表及图表，方便对数据进行可视化分析
+- 个性化 Dashboard 图表组件，集中进行数据可视化展现
+@ulend
+@snapend
 
 ---
 
