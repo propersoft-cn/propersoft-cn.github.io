@@ -10,6 +10,10 @@
 @fa[quote-left] 内置基于用户、角色、机构、岗位的规则<sup>1</sup>，可灵活组合设定经办人，随时根据需要调整流程，快速响应组织工作流程的调整
 @snapend
 
+@snap[east span-50]
+![](https://flowable.com/wp-content/uploads/2018/07/flowable-case-modeler.svg)
+@snapend
+
 @snap[south-west text-03]
 1. 内置规则不满足需求时，可以定制开发新的规则
 @snapend
