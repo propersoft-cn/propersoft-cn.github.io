@@ -62,36 +62,90 @@
 
 ---
 
-## 快速定位功能
+@snap[north raleway-medium span-80]
+### 快速定位功能
+@snapend
+
+@snap[midpoint span-50]
+系统功能的健全，会给寻找要使用的功能带来麻烦，快速定位功能特性，能帮您在茫茫的功能海洋中，快速找到要使用的功能 @fa[quote-right]
+@snapend
 
 ---
 
-## 敏感数据加密
+@snap[north raleway-medium span-80]
+### 敏感数据加密
+@snapend
+
+@snap[midpoint span-50]
+患者信息、财务信息等敏感信息，在入库时即进行自动的加密处理，即使被拖库，攻击者依然无法得到敏感信息明文内容 @fa[quote-right]
+@snapend
 
 ---
 
-## 信息实时推送
+@snap[north raleway-medium span-80]
+### 信息实时推送
+@snapend
+
+@snap[midpoint span-50]
+信息流向从传统的用户主动拉取，变成系统主动推送，让您在第一时间掌握信息动态 @fa[quote-right]
+@snapend
 
 ---
 
-## 桌面客户端
+@snap[north raleway-medium span-80]
+### 桌面客户端
+@snapend
+
+@snap[midpoint span-50]
+浏览器、Web 技术及 HTML 规范的发展，使得客户端可以完成更多的操作和效果，但同时也带来了兼容性的问题。桌面客户端可以在不改变您对浏览器的使用习惯的前提下，体验到现代 Web 技术的魅力 @fa[quote-right]
+@snapend
 
 ---
 
-## 移动端热发布
+@snap[north raleway-medium span-80]
+### 移动端热发布
+@snapend
+
+@snap[midpoint span-50]
+移动应用作为现代应用的第一入口，比传统桌面端占据更加重要的地位。移动应用的更新周期对用户体验也会产生直接的影响。热发布为移动应用提供了线上及时更新的能力，无论是 bug 修复，还是新功能上线，都能快速响应，免去了应用商店审核上架等繁琐的流程 @fa[quote-right]
+@snapend
 
 ---
 
-## 混合云架构
+@snap[north raleway-medium span-80]
+### 混合云架构
+@snapend
+
+@snap[midpoint span-50]
+私有云运维成本高，公有云存在信息安全隐患，混合云架构可以将并不涉及核心数据的业务构建在公有云上，兼顾了安全和运维成本 @fa[quote-right]
+@snapend
 
 ---
 
-## 高可用性
+@snap[north raleway-medium span-80]
+### 高可用性
+@snapend
+
+@snap[midpoint span-50]
+分布式部署，无论是硬件故障还是系统升级，都能平滑应对，告别系统停机 @fa[quote-right]
+@snapend
 
 ---
 
-## 高容错性
+@snap[north raleway-medium span-80]
+### 高容错性
+@snapend
+
+@snap[midpoint span-50]
+数据即时主从同步及延时备份，多副本及分片等机制，用存储空间，换来数据的高容错性 @fa[quote-right]
+@snapend
 
 ---
 
-## 监控预警
+@snap[north raleway-medium span-80]
+### 监控预警
+@snapend
+
+@snap[midpoint span-50]
+系统运行状态实时监控预警，在风险到来之前，提供了应急时间，从容应对 @fa[quote-right]
+@snapend
