@@ -25,11 +25,11 @@
 @snapend
 
 @snap[midpoint span-50]
-![](https://www.lego.com/portalskins/lego.com-css/1.0.0/assets/branding--products.5b3f57e594cec2e42a0aee4d0514fa52.jpg)
+我们提供的不仅是一组固定的功能模块，而是一个包含各种常见业务的组件集合，当产品功能不能满足您的实际需求时，可以将组件按需组合，利用已有业务功能，创建出新的业务功能 @fa[quote-right]
 @snapend
 
 @snap[south span-100 feature-details]
-我们提供的不仅是一组固定的功能模块，而是一个 @fa[quote-right]
+![](https://www.lego.com/portalskins/lego.com-css/1.0.0/assets/branding--products.5b3f57e594cec2e42a0aee4d0514fa52.jpg)
 @snapend
 
 ---
