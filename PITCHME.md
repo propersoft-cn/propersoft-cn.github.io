@@ -38,8 +38,8 @@
 ### 数据可视化报表
 @snapend
 
-@snap[west span-80]
-@ul[spaced text-white]
+@snap[west span-100]
+@ul[spaced]
 - 可按需创建各类报表及图表，方便对数据进行可视化分析
 - 个性化 Dashboard 图表组件，集中进行数据可视化展现
 @ulend
@@ -47,7 +47,18 @@
 
 ---
 
-## 智能检索
+@snap[north raleway-medium span-80]
+### 智能检索
+@snapend
+
+@snap[west span-100]
+@ul[spaced]
+- 告别查询时繁琐的填空，根据内容的智能检索，减少您在进行检索时无谓的思考
+- 贴近搜索引擎式的检索方式，还您更多的工作空间
+- 搜索历史按热度排序，提高阶段性质的频繁检索效率
+- 传统的检索方式作为高级查询仍然会被保留，满足您对检索的不同需求
+@ulend
+@snapend
 
 ---
 
