@@ -20,7 +20,17 @@
 
 ---
 
-## 自助创建功能
+@snap[north raleway-medium span-80]
+### 自助创建功能
+@snapend
+
+@snap[midpoint span-50]
+![](https://www.lego.com/portalskins/lego.com-css/1.0.0/assets/branding--products.5b3f57e594cec2e42a0aee4d0514fa52.jpg)
+@snapend
+
+@snap[south span-100 feature-details]
+我们提供的不仅是一组固定的功能模块，而是一个 @fa[quote-right]
+@snapend
 
 ---
 
