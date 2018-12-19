@@ -1,8 +1,8 @@
 |内容|说明|版本|
 |:--|:--|:--|
 |PEP|平台。|20181129|
-|ICMP|掌上办公。|20181129|
-|IHOS|掌上就医。|20180706|
+|ICMP|掌上办公。|20181218|
+|IHOS|掌上就医。|20181218|
 
 ---
 
@@ -115,10 +115,6 @@
 
 * [申请审批数据格式说明](https://seafile.propersoft.cn/#group/1/lib/14688a64-c2cc-4a98-95a7-25de321aebb3/%E6%8E%8C%E4%B8%8A%E5%8A%9E%E5%85%AC/%E7%94%B3%E8%AF%B7%E5%AE%A1%E6%89%B9%E8%A7%84%E8%8C%83%E8%AF%B4%E6%98%8E)
 
-### 厦门心血管app项目打包release
-
-* app：[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_App_3)
-
 ### ICMP-standard
 
 * desktop：[正式](https://icmp.propersoft.cn/icmp/standard/) / [抢先版](https://icmp2.propersoft.cn/icmp/standard/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_DesktopPrStandard)，抢先环境自动部署
@@ -141,6 +137,7 @@
 ### 正式版
 
 * desktop：[外网](https://icmp.propersoft.cn/icmp/propersoft/) / [内网](http://192.168.1.111/propersoft/web/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPrPropersoft)，手动部署
+* [desktop-灰度](https://icmp.propersoft.cn/icmp/propersoft_grey/)：[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPrPropersoft_2)，手动部署
 * [后台](https://icmp.propersoft.cn/propersoft/api/)：[server](https://gitlab.com/propersoft/icmp/propersoft/tree/server)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr)，手动部署
 
 ### 抢先版
@@ -156,12 +153,6 @@
 
 * [后台](https://icmp.propersoft.cn/demo/api/)：[server](https://gitlab.com/propersoft/icmp/propersoft/tree/server)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_aly_demo_Server)，手动部署
 
-### 阿里云公网测试环境
-
-* [desktop](https://test.propersoft.cn/propersoft/web/)：[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPr_2)
-* [后台](https://test.propersoft.cn/propersoft/api/)：[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr_2)
-* [app打包持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_AppImPrApk)
-* [app下载地址](http://test.propersoft.cn/app/download/android-armv7-release.apk)
 
 ## ICMP-YKRM
 
@@ -181,7 +172,6 @@
 
 |**CI名称**|**说明**|**CD地址**|**更新类型**|
 |:--|:--|:--|:--|
-|app-cloud演示 |掌上就医阿里云演示环境|[https://cloud.propersoft.cn/ihos/app/](https://cloud.propersoft.cn/ihos/app/)|手动|
 |app-本地测试 |掌上就医本地测试环境|[http://192.168.1.101/ihos/app-dev/](http://192.168.1.101/ihos/app-dev/)|自动|
 |check-admin |掌上就医旧版管理端代码检查|[http://192.168.1.101/ihos/admin/](http://192.168.1.101/ihos/admin/)|自动|
 |check-app |掌上就医app代码检查|[http://192.168.1.101/ihos/app-dev/](http://192.168.1.101/ihos/app-dev/)|自动|
@@ -201,9 +191,6 @@
 |ykrm-admin正式环境 |营口人民项目管理端正式环境|[https://ykrm.fdjkyl.org/ihos/admin/](https://ykrm.fdjkyl.org/ihos/admin/)|手动|
 |ykrm-app本地测试环境 |营口人民项目app打包本地测试环境|[http://192.168.1.101/ihos/app-dev/](http://192.168.1.101/ihos/app-dev/)|自动|
 |ykrm-app正式环境 |营口人民项目app打包正式环境|[https://ykrm.fdjkyl.org/ihos/app/](https://ykrm.fdjkyl.org/ihos/app/)|手动|
-|ykrm-app阿里云测试环境 |营口人民项目app打包阿里云测试环境|[https://ykrm.propersoft.cn/ihos/app-dev/](https://ykrm.propersoft.cn/ihos/app-dev/)|自动|
 |ykrm-desktop本地环境 |营口人民项目管理端本地测试环境|[http://192.168.1.101/ykrm/desktop/](http://192.168.1.101/ykrm/desktop/)|自动|
-|ykrm-desktop阿里云演示环境 |营口人民项目管理端阿里云测试环境|[https://ykrm.propersoft.cn/ihos/desktop/](https://ykrm.propersoft.cn/ihos/desktop/)|自动|
 |ykrm-server本地测试环境 |营口人民项目后台本地测试环境|[http://192.168.1.101/ykrm/server](http://192.168.1.101/ykrm/server)|自动|
 |ykrm-server正式环境 |营口人民项目后台正式环境|[https://ykrm.fdjkyl.org/ihos/server](https://ykrm.fdjkyl.org/ihos/server)|手动|
-|ykrm-server阿里云演示环境 |营口人民项目后台阿里云测试环境|[https://ykrm.propersoft.cn/ihos/server](https://ykrm.propersoft.cn/ihos/server)|自动|
