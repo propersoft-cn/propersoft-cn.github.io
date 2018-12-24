@@ -3,7 +3,7 @@
 ---
 
 @snap[north-east raleway-medium span-55]
-### 自由调整流程
+### 自由调整流程（部分具备）
 @snapend
 
 @snap[west span-40 pro-feature-details]
@@ -21,7 +21,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 自助创建功能
+### 自助创建功能（部分具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -35,7 +35,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 数据可视化报表
+### 数据可视化报表（部分具备）
 @snapend
 
 @snap[west span-100]
@@ -48,7 +48,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 智能检索
+### 智能检索（部分具备）
 @snapend
 
 @snap[west span-100]
@@ -63,7 +63,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 快速定位功能
+### 快速定位功能（部分具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -73,17 +73,31 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 敏感数据加密
+### 快捷键操作（部分具备）
 @snapend
 
 @snap[midpoint span-50]
-患者信息、财务信息等敏感信息，在入库时即进行自动的加密处理，即使被拖库，攻击者依然无法得到敏感信息明文内容 @fa[quote-right]
+主要操作支持快捷键，提高系统使用效率 @fa[quote-right]
 @snapend
 
 ---
 
 @snap[north raleway-medium span-80]
-### 信息实时推送
+### 敏感数据加密（已具备）
+@snapend
+
+@snap[midpoint span-50]
+患者信息、财务信息等敏感信息，在入库时即进行自动的加密处理，即使被拖库，攻击者依然无法得到敏感信息明文内容<sup>1</sup> @fa[quote-right]
+@snapend
+
+@snap[south-west text-03]
+1. 需要设定涉密业务，对业务进行加密处理
+@snapend
+
+---
+
+@snap[north raleway-medium span-80]
+### 信息实时推送（部分具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -93,7 +107,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 桌面客户端
+### 桌面客户端（已具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -103,7 +117,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 移动端热发布
+### 移动端热发布（已具备）
 @snapend
 
 @snap[midpoint span-80]
@@ -113,37 +127,43 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 混合云架构
+### 混合云架构（已具备）
 @snapend
 
 @snap[midpoint span-50]
-私有云运维成本高，公有云存在信息安全隐患，混合云架构可以将并不涉及核心数据的业务构建在公有云上，兼顾了安全和运维成本 @fa[quote-right]
+私有云运维成本高，公有云存在信息安全隐患，混合云架构可以将不涉及核心数据的业务构建在公有云上，在不降低数据私密性的同时，最大限度的减少运维成本 @fa[quote-right]
 @snapend
 
 ---
 
 @snap[north raleway-medium span-80]
-### 高可用性
+### 高可用性（已具备）
 @snapend
 
-@snap[midpoint span-50]
-分布式部署，无论是硬件故障还是系统升级，都能平滑应对，告别系统停机 @fa[quote-right]
-@snapend
-
----
-
-@snap[north raleway-medium span-80]
-### 高容错性
-@snapend
-
-@snap[midpoint span-50]
-数据即时主从同步及延时备份，多副本及分片等机制，用存储空间，换来数据的高容错性 @fa[quote-right]
+@snap[west span-100]
+@ul[spaced]
+- 分布式部署，无论是硬件故障还是系统升级，都能平滑应对，告别系统停机
+- 线上即时水平扩容，轻松应对访问高峰
+@ulend
 @snapend
 
 ---
 
 @snap[north raleway-medium span-80]
-### 监控预警
+### 高容错性（已具备）
+@snapend
+
+@snap[west span-100]
+@ul[spaced]
+- 数据即时及延时备份，确保数据万无一失
+- 多副本及分片等机制，提供数据可靠性和高并发访问能力
+@ulend
+@snapend
+
+---
+
+@snap[north raleway-medium span-80]
+### 监控预警（已具备）
 @snapend
 
 @snap[midpoint span-50]
