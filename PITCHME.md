@@ -3,7 +3,7 @@
 ---
 
 @snap[north-east raleway-medium span-55]
-### 自由调整流程（部分具备）
+#### 自由调整流程（部分具备）
 @snapend
 
 @snap[west span-40 pro-feature-details]
@@ -21,7 +21,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 自助创建功能（部分具备）
+#### 自助创建功能（部分具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -35,7 +35,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 数据可视化报表（部分具备）
+#### 数据可视化报表（部分具备）
 @snapend
 
 @snap[west span-100]
@@ -48,7 +48,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 智能检索（部分具备）
+#### 智能检索（部分具备）
 @snapend
 
 @snap[west span-100]
@@ -63,7 +63,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 快速定位功能（部分具备）
+#### 快速定位功能（部分具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -73,7 +73,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 快捷键操作（部分具备）
+#### 快捷键操作（部分具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -83,7 +83,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 敏感数据加密（已具备）
+#### 敏感数据加密（已具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -97,7 +97,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 信息实时推送（部分具备）
+#### 信息实时推送（部分具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -107,7 +107,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 桌面客户端（已具备）
+#### 桌面客户端（已具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -117,7 +117,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 移动端热发布（已具备）
+#### 移动端热发布（已具备）
 @snapend
 
 @snap[midpoint span-80]
@@ -127,7 +127,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 混合云架构（已具备）
+#### 混合云架构（已具备）
 @snapend
 
 @snap[midpoint span-50]
@@ -137,7 +137,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 高可用性（已具备）
+#### 高可用性（已具备）
 @snapend
 
 @snap[west span-100]
@@ -150,7 +150,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 高容错性（已具备）
+#### 高容错性（已具备）
 @snapend
 
 @snap[west span-100]
@@ -163,7 +163,7 @@
 ---
 
 @snap[north raleway-medium span-80]
-### 监控预警（已具备）
+#### 监控预警（已具备）
 @snapend
 
 @snap[midpoint span-50]
