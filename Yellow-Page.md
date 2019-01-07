@@ -42,6 +42,7 @@
 * [后台](http://39.106.53.71:29091/pep-push/)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush)，手动部署
 * [查看日志](http://39.106.53.71/log/)
 * [推送参数](https://seafile.propersoft.cn/lib/14688a64-c2cc-4a98-95a7-25de321aebb3/file/%E6%8E%8C%E4%B8%8A%E5%8A%9E%E5%85%AC/%E4%BA%A4%E6%8E%A5%E6%96%87%E6%A1%A3/%E4%BA%A4%E6%8E%A5.md)
+* [推送接口](https://github.com/propersoft-cn/proper-enterprise-platform/blob/v0.4.4.8/subprojects/pep-push/pep-push-api/src/main/java/com/proper/enterprise/platform/push/api/openapi/service/MsgQueueAppServerRequestService.java)
 
 ### 测试环境
 
