@@ -1,8 +1,11 @@
+
 |内容|说明|版本|
 |:--|:--|:--|
 |PEP|平台。|20181129|
 |ICMP|掌上办公。|20181218|
+|XT|协同办公。|20190312|
 |IHOS|掌上就医。|20181218|
+
 
 ---
 
@@ -102,7 +105,7 @@
 |app |掌上办公阿里云验证环境|[https://cloud.propersoft.cn/icmp/app/](https://cloud.propersoft.cn/icmp/app/)|自动|
 |||[https://cloud.propersoft.cn/icmp/app-im/](https://cloud.propersoft.cn/icmp/app-im/)||
 |||[https://cloud.propersoft.cn/icmp/app-dev/](https://cloud.propersoft.cn/icmp/app-dev/)||
-|app-im本地测试环境 |掌上办公产品APP本地测试环境。|[http://192.168.1.111/icmp/app-im/](http://192.168.1.111/icmp/app-im/)|自动|
+|app-dev 本地测试 | 掌上办公产品APP本地测试环境。|[ http://192.168.1.111/icmp/app-dev/](http://192.168.1.111/icmp/app-dev/)|自动|
 |app各医院项目 |用于打包宁波、省人民、北辰等项目包。|||
 |check-app |掌上办公产品app端代码检查。|[https://cloud.propersoft.cn/icmp/merge/](https://cloud.propersoft.cn/icmp/merge/)|自动|
 |check-server |掌上办公产品后台server分支代码检查|||
@@ -168,6 +171,19 @@
 |ykrm-server-dev正式环境|营口人民项目办公后台正式环境。||手动|
 
 ---
+
+## XT-产品
+
+### 功能测试环境
+
+* home：[内网](http://192.168.1.122/home/) / [外网](
+http://202.199.100.174:8080/home/)，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25server_home)，手动部署
+* uipadmin：[内网](http://192.168.1.122/uipadmin/) / [外网](
+http://202.199.100.174:8080/uipadmin/)，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25serverAdmin)，手动部署
+* mobile-platform：[内网](http://192.168.1.122/mobile-platform/) / [外网](
+http://202.199.100.174:9090/mobile-platform/)，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25serverMobilePlatform)，手动部署
+* easyfile.war：[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25serverEasyFile)，手动部署
+* file.war：[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25serverFile)，手动部署
 
 ## IHOS-产品
 
