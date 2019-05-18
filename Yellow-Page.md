@@ -3,7 +3,7 @@
 |:--|:--|:--|
 |PEP|平台。|20181129|
 |ICMP|掌上办公。|20181218|
-|XT|协同办公。|20190312|
+|XT|协同办公。|20190516|
 |IHOS|掌上就医。|20181218|
 
 
@@ -183,6 +183,14 @@ http://202.199.100.174:8080/uipadmin/)，[持续集成](https://cloud.propersoft
 http://202.199.100.174:9090/mobile-platform/)，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25serverMobilePlatform)，手动部署
 * easyfile.war：[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25serverEasyFile)，手动部署
 * file.war：[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25serverFile)，手动部署
+
+### 资产环境
+
+* home：[内网](http://192.168.1.123:8081/home/) / [外网](
+http://202.199.100.174:8081/home/)，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25)，手动部署
+* uipadmin：[内网](http://192.168.1.123:8081/uipadmin/) / [外网](
+http://202.199.100.174:8081/uipadmin/)，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25serverAdmin)，手动部署
+
 
 ## IHOS-产品
 
