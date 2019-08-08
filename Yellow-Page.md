@@ -1,10 +1,10 @@
 
 |内容|说明|版本|
 |:--|:--|:--|
-|PEP|平台。|20181129|
-|ICMP|掌上办公。|20181218|
-|XT|协同办公。|20190516|
-|IHOS|掌上就医。|20181218|
+|PEP|平台。|20190726|
+|ICMP|掌上办公。|20190726|
+|XT|协同办公。|20190726|
+|IHOS|掌上就医。|20190726|
 
 
 ---
@@ -30,20 +30,11 @@
 
 ### 正式环境
 
-* [desktop](http://push.propersoft.cn/admin)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepDesktop)，手动部署
-* [后台](http://push.propersoft.cn/pep-push)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush_new)
+* [后台](https://adapter.propersoft.cn/pep-push/)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=notice_AdapterPepPush)
 
-### 测试环境
-
-* [desktop](http://push2.propersoft.cn/admin)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPushTestDesktop)
-* [后台](http://push2.propersoft.cn/pep-push)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPushTest)
 
 ## 老推送
 
-### 正式环境
-
-* [后台](http://39.106.53.71:29091/pep-push/)：[持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepPush)，手动部署
-* [查看日志](http://39.106.53.71/log/)
 * [推送参数](https://seafile.propersoft.cn/lib/14688a64-c2cc-4a98-95a7-25de321aebb3/file/%E6%8E%8C%E4%B8%8A%E5%8A%9E%E5%85%AC/%E4%BA%A4%E6%8E%A5%E6%96%87%E6%A1%A3/%E4%BA%A4%E6%8E%A5.md)
 * [推送接口](https://github.com/propersoft-cn/proper-enterprise-platform/blob/v0.4.4.8/subprojects/pep-push/pep-push-api/src/main/java/com/proper/enterprise/platform/push/api/openapi/service/MsgQueueAppServerRequestService.java)
 
@@ -58,32 +49,22 @@
 ### API
 
 * 内网
-    * [api](http://192.168.1.111/pea/api/api.html)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaApi)
-    * [api-dev](http://192.168.1.111/pea/api-dev/api.html)
-    * [merge](http://192.168.1.111/pea/merge/api.html)
-    * [swagger](http://192.168.1.111/pep-swagger-app/swagger-ui.html)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepSwagger)
+
+    * [swagger](http://192.168.1.111/pep-swagger-app/swagger-ui.html)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=Swagger_PepSwagger_2)
 
 
 ### 前端
 
-* 外网
-    * [master](https://cloud.propersoft.cn/pea/master/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaCdMaster)
-    * [develop](https://cloud.propersoft.cn/pea/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaCdDevelop)
+* 内网测试
 
-* 内网
-    * [master](http://192.168.1.111/pea/master/)
     * [develop](http://192.168.1.111/pea/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaCd_localhost)
 
 ### 后端
 
-* [持续集成](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepParallel)
-* 内网
+* [持续集成测试](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepParallel)
+* 内网测试
     * [develop](http://192.168.1.111/pep/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepCd05x)
 
-###  阿里云公网测试
-
-* [develop](http://test.propersoft.cn/pep/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepCdDevelop_2)
-* [后台](http://test.propersoft.cn/pea/develop/)，[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PeaCd)
 
 ##  Streamline
 
@@ -93,7 +74,7 @@
 
 ### 测试环境
 
-* [后台](http://220918zh27.iok.la:54885/pep/streamline)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepCdStreamline)
+* [后台](http://192.168.1.111/pep/streamline/streamline/)：[持续发布](https://cloud.propersoft.cn/teamcities/viewType.html?buildTypeId=ProperEnterprise_PepCdStreamline)
 
 ---
 
@@ -101,18 +82,9 @@
 
 |**CI名称**|**说明**|**CD地址**|**更新类型**|
 |:--|:--|:--|:--|
-|app |掌上办公阿里云验证环境|[https://cloud.propersoft.cn/icmp/app/](https://cloud.propersoft.cn/icmp/app/)|自动|
-|||[https://cloud.propersoft.cn/icmp/app-im/](https://cloud.propersoft.cn/icmp/app-im/)||
-|||[https://cloud.propersoft.cn/icmp/app-dev/](https://cloud.propersoft.cn/icmp/app-dev/)||
-|app-dev 本地测试 | 掌上办公产品APP本地测试环境。|[ http://192.168.1.111/icmp/app-dev/](http://192.168.1.111/icmp/app-dev/)|自动|
-|app各医院项目 |用于打包宁波、省人民、北辰等项目包。|||
-|check-app |掌上办公产品app端代码检查。|[https://cloud.propersoft.cn/icmp/merge/](https://cloud.propersoft.cn/icmp/merge/)|自动|
+|check-app |掌上办公产品app端代码检查。||自动|
 |check-server |掌上办公产品后台server分支代码检查|||
 |check-server-dev |掌上办公产品后台server-dev分支代码检查|||
-|ICMP-API文档 |掌上办公api接口文档|[http://192.168.1.111/icmp/api/api.html](http://192.168.1.111/icmp/api/api.html)|自动|
-|||[http://192.168.1.111/icmp/api-dev/api.html](http://192.168.1.111/icmp/api-dev/api.html)||
-|||[http://192.168.1.111/icmp/api-im/api.html](http://192.168.1.111/icmp/api-im/api.html)||
-|||[http://192.168.1.111/icmp/merge/api.html](http://192.168.1.111/icmp/merge/api.html)||
 |ICMP-desktop-本地测试 |掌上办公产品前端本地测试环境。|[http://192.168.1.111/icmp/desktop/](http://192.168.1.111/icmp/desktop/)|自动|
 |ICMP-server-dev本地测试|掌上办公产品后台本地测试环境。|[http://192.168.1.111/icmp/server-dev](http://192.168.1.111/icmp/server-dev)|自动|
 
@@ -131,15 +103,14 @@
 
 |**CI名称**|**说明**|**CD地址**|**更新类型**|
 |:--|:--|:--|:--|
-|app-im-174外网dev环境 |普日协同办公项目APP测试环境。|[https://icmp2.propersoft.cn/icmp/](https://icmp2.propersoft.cn/icmp/)|自动|
 |app-im-174灰度环境|普日协同办公项目APP灰度测试环境。|[https://icmp2.propersoft.cn/icmp-dev/](https://icmp2.propersoft.cn/icmp-dev/)|自动|
-|app-im-pr正式apk |普日协同办公项目APP打包正式环境。|[https://icmp.propersoft.cn/propersoft](https://icmp.propersoft.cn/propersoft)|手动|
+|app-online-apk|普日协同办公项目APP打包正式环境。|[https://icmp.propersoft.cn/propersoft](https://icmp.propersoft.cn/propersoft)|手动|
 |app-im-阿里云demo环境|掌上办公客户演示环境。|[https://icmp.propersoft.cn/demo/app/](https://icmp.propersoft.cn/demo/app/)|手动|
 |cordova-easemob|自动更新环信插件到私服。|||
 
 ### 正式版
 
-* desktop：[外网](https://icmp.propersoft.cn/icmp/propersoft/) / [内网](http://192.168.1.111/propersoft/web/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPrPropersoft)，手动部署
+* desktop：[外网](https://icmp.propersoft.cn/icmp/propersoft/) ，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPrPropersoft)，手动部署
 * [desktop-灰度](https://icmp.propersoft.cn/icmp/propersoft_grey/)：[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_DesktopPrPropersoft_2)，手动部署
 * [后台](https://icmp.propersoft.cn/propersoft/api/)：[server](https://gitlab.com/propersoft/icmp/propersoft/tree/server)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_ServerPr)，手动部署
 
@@ -149,25 +120,12 @@
 ![iOS](./Yellow-Page/preview-ios.png)
 
 * [热部署](https://icmp2.propersoft.cn/icmp-dev/)
-* [desktop](https://icmp.propersoft.cn/icmp/propersoft/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Desktop)
+* [desktop](https://icmp2.propersoft.cn/icmp/propersoft/)：[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Desktop)
 * [后台](https://icmp2.propersoft.cn/icmp/server-dev/)：[server-dev](https://gitlab.com/propersoft/icmp/propersoft/tree/server-dev)，[持续发布](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_pr_Server174dev)
 
 ### 阿里云演示环境
 
 * [后台](https://icmp.propersoft.cn/demo/api/)：[server](https://gitlab.com/propersoft/icmp/propersoft/tree/server)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_aly_demo_Server)，手动部署
-
-
-## ICMP-YKRM
-
-|**CI名称**|**说明**|**CD地址**|**更新类型**|
-|:--|:--|:--|:--|
-|YKRM-app正式环境|营口人民项目办公APP打包正式环境。|[https://ykrm.fdjkyl.org/icmp/app/](https://ykrm.fdjkyl.org/icmp/app/)|手动|
-|YKRM-app本地测试 |营口人民项目办公APP打包本地测试环境。|[http://192.168.1.111/ykrm/app/](http://192.168.1.111/ykrm/app/)|自动|
-|YKRM-app阿里云演示环境|营口人民项目办公APP打包阿里云环境。|[https://ykrm.propersoft.cn/icmp/app-im/](https://ykrm.propersoft.cn/icmp/app-im/)|自动|
-|ykrm-desktop阿里云演示环境 |营口人民项目办公管理端阿里云演示环境。|[https://ykrm.propersoft.cn/icmp/desktop/](https://ykrm.propersoft.cn/icmp/desktop/)|自动|
-|ykrm-server本地测试环境|营口人民项目办公后台本地环境。|[http://192.168.1.111/ykrm/server](http://192.168.1.111/ykrm/server)|自动|
-|ykrm-server阿里云演示环境|营口人民项目办公后台阿里云演示环境。|[https://ykrm.propersoft.cn/icmp/server](https://ykrm.propersoft.cn/icmp/server)|自动|
-|ykrm-server-dev正式环境|营口人民项目办公后台正式环境。||手动|
 
 ---
 
@@ -191,6 +149,19 @@ http://202.199.100.174:8081/home/)，[持续集成](https://cloud.propersoft.cn/
 * uipadmin：[内网](http://192.168.1.123:8081/uipadmin/) / [外网](
 http://202.199.100.174:8081/uipadmin/)，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=Xt25_25serverAdmin)，手动部署
 
+### 协同项目
+
+#### 盘锦中医
+
+* home：[内网](http://192.168.1.123:8082/home/)，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=pjxt_test)，自动部署
+* uipadmin：[内网](http://192.168.1.123:8082/uipadmin/) ，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=pjxt_testServerUipadmin)，自动部署
+* mobile-platform：[内网](http://192.168.1.123:9092/mobile-platform/) ，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=pjxt_testServerUipadmin)，自动部署
+* icmp：[内网](http://192.168.1.123/icmp/server-dev/route/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_IcmpServerDev250_2)，手动部署
+
+#### 山大二院
+
+* mobile-platform：[内网](http://192.168.1.123:9094/mobile-platform/) ，[持续集成](https://cloud.propersoft.cn/tc-xt/viewType.html?buildTypeId=sd2_TestServerMobilePlatform)，自动部署
+* icmp：[内网](http://192.168.1.123/icmp/server-dev/route/)，[持续集成](https://cloud.propersoft.cn/tc-icmp/viewType.html?buildTypeId=Icmp_IcmpServerDev250_2)，手动部署
 
 ## IHOS-产品
 
@@ -207,18 +178,6 @@ http://202.199.100.174:8081/uipadmin/)，[持续集成](https://cloud.propersoft
 |server |掌上就医后台server分支本地测试|[http://192.168.1.101/ihos/server/](http://192.168.1.101/ihos/server/)|自动|
 |server-dev |掌上就医后台server-dev分支本地测试|[http://192.168.1.101/ihos/server-dev/](http://192.168.1.101/ihos/server-dev/)|自动|
 
-## IHOS-YKRM
-
-|**CI名称**|**说明**|**CD地址**|**更新类型**|
-|:--|:--|:--|:--|
-|check-app |营口人民项目app端代码自动检查||自动|
-|ykrm-admin正式环境 |营口人民项目管理端正式环境|[https://ykrm.fdjkyl.org/ihos/admin/](https://ykrm.fdjkyl.org/ihos/admin/)|手动|
-|ykrm-app本地测试环境 |营口人民项目app打包本地测试环境|[http://192.168.1.101/ihos/app-dev/](http://192.168.1.101/ihos/app-dev/)|自动|
-|ykrm-app正式环境 |营口人民项目app打包正式环境|[https://ykrm.fdjkyl.org/ihos/app/](https://ykrm.fdjkyl.org/ihos/app/)|手动|
-|ykrm-desktop本地环境 |营口人民项目管理端本地测试环境|[http://192.168.1.101/ykrm/desktop/](http://192.168.1.101/ykrm/desktop/)|自动|
-|ykrm-server本地测试环境 |营口人民项目后台本地测试环境|[http://192.168.1.101/ykrm/server](http://192.168.1.101/ykrm/server)|自动|
-|ykrm-server正式环境 |营口人民项目后台正式环境|[https://ykrm.fdjkyl.org/ihos/server](https://ykrm.fdjkyl.org/ihos/server)|手动|
-
 
 ## 数据库统一连接地址
 
@@ -230,6 +189,11 @@ http://202.199.100.174:8081/uipadmin/)，[持续集成](https://cloud.propersoft
 * mongodb集群03: [192.168.1.103:27017](192.168.1.103:27017)
 * redis: [192.168.1.103:36379](192.168.1.103:36379)
 
+
+#### oracle
+* 协同产品、资产oracle：[192.168.1.163:1521](192.168.1.163:1521)
+* 协同项目、测试oracle：[192.168.1.123:1521](192.168.1.123:1521)
+* 协同标准化oracle数据库：[192.168.1.163:1522](192.168.1.163:1522)
 ### 外网
 
 mongodb: [60.205.219.251](60.205.219.251)
